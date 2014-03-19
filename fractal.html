@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Web Fractals </title>
+    <link rel="stylesheet" href="fractal.css" type="text/css"/>
+  </head>
+  <body>
+    <h1> Welcome to Web Fractals </h1>
+    <pre>
+ __      __      ___.    
+/  \    /  \ ____\_ |__  
+\   \/\/   // __ \| __ \ 
+ \        /\  ___/| \_\ \
+  \__/\  /  \___  >___  /
+       \/       \/    \/ 
+___________                     __         .__          
+\_   _____/___________    _____/  |______  |  |   ______
+ |    __) \_  __ \__  \ _/ ___\   __\__  \ |  |  /  ___/
+ |     \   |  | \// __ \\  \___|  |  / __ \|  |__\___ \ 
+ \___  /   |__|  (____  /\___  >__| (____  /____/____  >
+     \/               \/     \/          \/          \/ 
+    </pre>
+    <script>
+      window.onload = function(){
+        document.onclick = function(){
+          document.body.style.textAlign = "inherit";
+          document.body.innerHTML = "<iframe src='/users/clayton/Documents/Git/WebFractals/fractal.html' scrolling='yes' width='49%' height='49%'></iframe><iframe src='/users/clayton/Documents/Git/WebFractals/fractal.html' scrolling='no' width='49%' height='49%'></iframe><iframe src='/users/clayton/Documents/Git/WebFractals/fractal.html' scrolling='no' width='49%' height='49%'></iframe><iframe src='/users/clayton/Documents/Git/WebFractals/fractal.html' scrolling='no' width='49%' height='49%'></iframe>";
+        };
+      }
+    </script>
+
+  </body>
+</html>
+

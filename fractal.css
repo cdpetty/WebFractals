@@ -1,0 +1,13 @@
+body{
+  text-align:center;
+  height:100%;
+}
+h1{
+  color:grey;
+  font-family:Courier;
+}
+iframe{
+  display:inline-block;
+  margin:0px;
+  padding:0px;
+}
